@@ -15,7 +15,10 @@ public class Main {
         return "ok";
     }
 
+    @XzToField(setFieldValue = "oga, it's xz")
+    String a = "dsfkljdshfkl";
+
     public static void main(String[] args) {
-        NotXzHandler.handle(new Main());
+        XzToFieldHandler.handle(new Main());
     }
 }

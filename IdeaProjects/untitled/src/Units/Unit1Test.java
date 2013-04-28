@@ -20,19 +20,44 @@ class UnexpectedResultsException extends Exception {
     }
 }
 
-public class Unit1Test {
-    @Test(expected = IllegalArgumentException.class)
-    public void testIsMama() throws IllegalArgumentException {
-        Unit1.isMama(-1);
-    }
-
-    @Test(expected = IllegalArgumentException.class)
-    public void testIsPapa() throws IllegalArgumentException {
-        // статический импорт
-        Unit1.isPapa(-2147483648);
-        Unit1.isPapa(2147483647);
-        Unit1.isPapa(-1);
-        Unit1.isPapa(50);
-        Unit1.isPapa(0); // перегнать в ЦЫКЛЕ
-    }
-}
+//public class Unit1Test {
+//
+//
+//    @Test(expected = IllegalArgumentException.class)
+//    public void testIsPapa(int i) throws IllegalArgumentException {
+//        // статический импорт
+//        Unit1.isPapa(i);
+//    }
+//
+//    @Test
+//    public void testIsMamaAllValues() throws IllegalArgumentException {
+//        int[] values = new int[5];
+//        values[0] = -2147483648;
+//        values[1] = 2147483647;
+//        values[2] = -1;
+//        values[3] = 50;
+//        values[4] = 0;
+//
+//        @Test(expected = IllegalArgumentException.class)
+//        public void testIsMama(int i) {
+//            Unit1.isMama(i);
+//        }
+//
+//        for(i = 0; i < values.length; i++) {
+//            testIsPapa(i);
+//        }
+//    }
+//
+//    @Test
+//    public void testIsPapaAllValues() {
+//        int[] values = new int[5];
+//        values[0] = -2147483648;
+//        values[1] = 2147483647;
+//        values[2] = -1;
+//        values[3] = 50;
+//        values[4] = 0;
+//        for(int i=0; i < values.length; i++) {
+//            testIsPapa(i);
+//        }
+//    }
+//}
