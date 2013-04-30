@@ -19,6 +19,10 @@ public class Main {
     String a = "dsfkljdshfkl";
 
     public static void main(String[] args) {
-        XzToFieldHandler.handle(new Main());
+        Main main = new Main();
+
+        XzToFieldHandler.handle(main);
+
+        System.out.println("Nasha rabota : " + main.a);
     }
 }
