@@ -29,29 +29,32 @@ public class Unit1Test {
         Unit1.isPapa(i);
     }
 
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testIsMama(int i) throws IllegalArgumentException {
+        Unit1.isMama(i);
+    }
+
     @Test
     public void testIsMamaAllValues() throws IllegalArgumentException {
         int[] values = new int[5];
-        values[0] = -2147483648;
-        values[1] = 2147483647;
+        values[0] = Integer.MIN_VALUE;
+        values[1] = Integer.MAX_VALUE;
         values[2] = -1;
         values[3] = 50;
         values[4] = 0;
-
-        @Test(expected = IllegalArgumentException.class)
-        public void testIsMama(int i) {
-            Unit1.isMama(i);
-        }
-
-        for(i = 0; i < values.length; i++) {
-            testIsPapa(i);
-        }
     }
+
+
 
     @Test
     public void testIsPapaAllValues() {
         int[] values = new int[5];
         values[0] = -2147483648;
+
+        for(i = 0; i < values.length; i++) {
+            testIsPapa(i);
+        }
         values[1] = 2147483647;
         values[2] = -1;
         values[3] = 50;
