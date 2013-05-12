@@ -2,7 +2,7 @@ package Units;
 
 import org.junit.Test;
 
-import Units.Unit1.*;
+import static Units.Unit1.*;
 
 
 /**
@@ -22,45 +22,64 @@ class UnexpectedResultsException extends Exception {
 
 public class Unit1Test {
 
-
     @Test(expected = IllegalArgumentException.class)
-    public void testIsPapa(int i) throws IllegalArgumentException {
-        // статический импорт
-        Unit1.isPapa(i);
+    public void testIsPapaNotInRangeValueMax() throws IllegalArgumentException {
+        Unit1.isPapa(Integer.MAX_VALUE);
     }
 
+    @Test(expected = IllegalArgumentException.class)
+    public void testIsPapaNotInRangeValueMin() throws IllegalArgumentException {
+        Unit1.isPapa(Integer.MIN_VALUE);
+    }
 
     @Test(expected = IllegalArgumentException.class)
-    public void testIsMama(int i) throws IllegalArgumentException {
-        Unit1.isMama(i);
+    public void testIsMamaNotInRangeValueMax() throws IllegalArgumentException {
+        isMama(Integer.MAX_VALUE);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testIsMamaNotInRangeValueMin() throws IllegalArgumentException {
+        isMama(Integer.MIN_VALUE);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testIsMamaNotInRangeValueLowBorder() throws IllegalArgumentException {
+        isMama(-1);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testIsMamaNotInRangeValueHighBorder() throws IllegalArgumentException {
+        isMama(101);
     }
 
     @Test
-    public void testIsMamaAllValues() throws IllegalArgumentException {
-        int[] values = new int[5];
-        values[0] = Integer.MIN_VALUE;
-        values[1] = Integer.MAX_VALUE;
-        values[2] = -1;
-        values[3] = 50;
-        values[4] = 0;
+    public void testIsMamaInRangeValue1() {
+        isMama(0);
     }
-
-
 
     @Test
-    public void testIsPapaAllValues() {
-        int[] values = new int[5];
-        values[0] = -2147483648;
-
-        for(i = 0; i < values.length; i++) {
-            testIsPapa(i);
-        }
-        values[1] = 2147483647;
-        values[2] = -1;
-        values[3] = 50;
-        values[4] = 0;
-        for(int i=0; i < values.length; i++) {
-            testIsPapa(i);
-        }
+    public void testIsMamaInRangeValue2() {
+        isMama(1);
     }
+
+    @Test
+    public void testIsMamaInRangeValue3() {
+        isMama(50);
+    }
+
+    @Test
+    public void testIsMamaInRangeValue4() {
+        isMama(99);
+    }
+
+    @Test
+    public void testIsMamaInRangeValue5() {
+        isMama(100);
+    }
+
+    @Test
+    public void testIsMamaInRangeValue6() {
+        isMama(0);
+    }
+
 }

@@ -18,11 +18,18 @@ public class Main {
     @XzToField(setFieldValue = "oga, it's xz")
     String a = "dsfkljdshfkl";
 
-    public static void main(String[] args) {
+    @XzToField(setFieldValue = "neOK")
+    String b = "ok";
+
+    String c = "without Annotation";
+
+    public static void main(String[] args) throws IllegalAccessException, NoSuchFieldException {
         Main main = new Main();
 
         XzToFieldHandler.handle(main);
+        System.out.println(main.a);
+        System.out.println(main.b);
+        System.out.println(main.c);
 
-        System.out.println("Nasha rabota : " + main.a);
     }
 }
