@@ -3,6 +3,7 @@ package Units;
 import org.junit.Test;
 
 import static Units.Unit1.*;
+import static org.junit.Assert.assertEquals;
 
 
 /**
@@ -22,24 +23,36 @@ class UnexpectedResultsException extends Exception {
 
 public class Unit1Test {
 
+    // мучаем маму и папу
+
     @Test(expected = IllegalArgumentException.class)
     public void testIsPapaNotInRangeValueMax() throws IllegalArgumentException {
-        Unit1.isPapa(Integer.MAX_VALUE);
+        isPapa(Integer.MAX_VALUE);
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void testIsPapaNotInRangeValueMin() throws IllegalArgumentException {
-        Unit1.isPapa(Integer.MIN_VALUE);
+        isPapa(Integer.MIN_VALUE);
     }
 
     @Test(expected = IllegalArgumentException.class)
-    public void testIsMamaNotInRangeValueMax() throws IllegalArgumentException {
-        isMama(Integer.MAX_VALUE);
+    public void testIsPapaNotInRangeValueLowBorder() throws IllegalArgumentException {
+        isMama(-1);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testIsPapaNotInRangeValueHighBorder() throws IllegalArgumentException {
+        isMama(101);
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void testIsMamaNotInRangeValueMin() throws IllegalArgumentException {
         isMama(Integer.MIN_VALUE);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testIsMamaNotInRangeValueMax() throws IllegalArgumentException {
+        isMama(Integer.MAX_VALUE);
     }
 
     @Test(expected = IllegalArgumentException.class)
@@ -52,34 +65,58 @@ public class Unit1Test {
         isMama(101);
     }
 
+    // Мучаем маму
+
     @Test
     public void testIsMamaInRangeValue1() {
-        isMama(0);
+        assertEquals(isMama(0), true);
     }
 
     @Test
     public void testIsMamaInRangeValue2() {
-        isMama(1);
+        assertEquals(isMama(1), false);
     }
 
     @Test
     public void testIsMamaInRangeValue3() {
-        isMama(50);
+        assertEquals(isMama(50), false);
     }
 
     @Test
     public void testIsMamaInRangeValue4() {
-        isMama(99);
+        assertEquals(isMama(99), true);
     }
 
     @Test
     public void testIsMamaInRangeValue5() {
-        isMama(100);
+        assertEquals(isMama(100), false);
+    }
+
+    // Мучаем папу
+
+    @Test
+    public void testIsPapaInRangeValue1() {
+        assertEquals(isPapa(0), true);
     }
 
     @Test
-    public void testIsMamaInRangeValue6() {
-        isMama(0);
+    public void testIsPapaInRangeValue2() {
+        assertEquals(isPapa(1), false);
+    }
+
+    @Test
+    public void testIsPapaInRangeValue3() {
+        assertEquals(isPapa(50), true);
+    }
+
+    @Test
+    public void testIsPapaInRangeValue4() {
+        assertEquals(isPapa(99), false);
+    }
+
+    @Test
+    public void testIsPapaInRangeValue5() {
+        assertEquals(isPapa(100), true);
     }
 
 }

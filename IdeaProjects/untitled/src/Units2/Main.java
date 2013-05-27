@@ -18,8 +18,8 @@ public class Main {
     @XzToField(setFieldValue = "oga, it's xz")
     String a = "dsfkljdshfkl";
 
-    @XzToField(setFieldValue = "neOK")
-    String b = "ok";
+    @XzToField(setFieldValue = "вавыавы")
+    private String b = "ok";
 
     String c = "without Annotation";
 

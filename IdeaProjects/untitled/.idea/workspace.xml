@@ -11,9 +11,9 @@
     <file path="/Ex1Test.java" changelist="7112203c-8862-4897-9f9c-fef8246a021d" time="1365503557375" ignored="false" />
     <file path="/Ex1.java" changelist="7112203c-8862-4897-9f9c-fef8246a021d" time="1365500484562" ignored="false" />
     <file path="/Unit1.java" changelist="7112203c-8862-4897-9f9c-fef8246a021d" time="1366274878596" ignored="false" />
-    <file path="/Unit1Test.java" changelist="7112203c-8862-4897-9f9c-fef8246a021d" time="1368393822948" ignored="false" />
+    <file path="/Unit1Test.java" changelist="7112203c-8862-4897-9f9c-fef8246a021d" time="1369668217583" ignored="false" />
     <file path="/NotXz.java" changelist="7112203c-8862-4897-9f9c-fef8246a021d" time="1367177635504" ignored="false" />
-    <file path="/Main.java" changelist="7112203c-8862-4897-9f9c-fef8246a021d" time="1368388532915" ignored="false" />
+    <file path="/Main.java" changelist="7112203c-8862-4897-9f9c-fef8246a021d" time="1368457297754" ignored="false" />
     <file path="/NotXzHandler.java" changelist="7112203c-8862-4897-9f9c-fef8246a021d" time="1368383601793" ignored="false" />
     <file path="/XzToRow.java" changelist="7112203c-8862-4897-9f9c-fef8246a021d" time="1367179226494" ignored="false" />
     <file path="/XzToFieldHandler.java" changelist="7112203c-8862-4897-9f9c-fef8246a021d" time="1368384522212" ignored="false" />
@@ -39,7 +39,6 @@
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
         <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
@@ -56,7 +55,6 @@
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
         <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
@@ -87,10 +85,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Unit1Test.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="XzToFieldHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Units2/XzToFieldHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="30" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Units2/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="28" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Unit1Test.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Units/Unit1Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="29" selection-start="450" selection-end="474" vertical-scroll-proportion="0.0">
+            <state line="121" column="44" selection-start="2978" selection-end="2978" vertical-scroll-proportion="4.1617646">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,19 +114,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XzToFieldHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Units2/XzToFieldHandler.java">
+      <file leaf-file-name="Unit1.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Units/Unit1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="871" selection-end="871" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Unit2Test.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Units2/Unit2Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="8" selection-start="313" selection-end="313" vertical-scroll-proportion="0.4494382">
+            <state line="26" column="22" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -139,9 +146,9 @@
         <option value="$PROJECT_DIR$/src/Units2/XzToField.java" />
         <option value="$PROJECT_DIR$/src/Units2/NotXzHandler.java" />
         <option value="$PROJECT_DIR$/src/Units2/XzToFieldHandler.java" />
+        <option value="$PROJECT_DIR$/src/Units2/Unit2Test.java" />
         <option value="$PROJECT_DIR$/src/Units2/Main.java" />
         <option value="$PROJECT_DIR$/src/Units/Unit1Test.java" />
-        <option value="$PROJECT_DIR$/src/Units2/Unit2Test.java" />
       </list>
     </option>
   </component>
@@ -149,10 +156,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-4" />
-    <option name="width" value="1217" />
-    <option name="height" value="1029" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1535" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -364,6 +371,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -443,7 +451,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -451,6 +458,7 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
@@ -696,7 +704,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1217" height="1029" extended-state="6" />
+    <frame x="65" y="24" width="1535" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -707,13 +715,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6672" sideWeight="0.5091633" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24780877" sideWeight="0.3264" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32576618" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32496697" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.6704" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24550898" sideWeight="0.63564134" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3643587" sideWeight="0.48525897" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24513096" sideWeight="0.6393659" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3606341" sideWeight="0.48525897" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="164" y="96" width="1103" height="573" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -748,7 +756,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
@@ -758,10 +766,6 @@
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
@@ -775,7 +779,6 @@
     <option name="ACTIVE_VCS_NAME" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
@@ -787,6 +790,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Units2/XzToFieldHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="871" selection-end="871" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Units/Unit1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="32" selection-start="814" selection-end="820" vertical-scroll-proportion="0.0">
@@ -847,13 +857,6 @@
         <state line="30" column="0" selection-start="920" selection-end="920" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Units/Unit1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="32" selection-start="814" selection-end="820" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Units2/NotXzHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="71" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
@@ -870,13 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Units2/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Units2/NotXz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="22" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
@@ -886,24 +882,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Units2/XzToFieldHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="871" selection-end="871" vertical-scroll-proportion="0.0">
+        <state line="29" column="30" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Units2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="28" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Units/Unit1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="22" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Units/Unit1Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="29" selection-start="450" selection-end="474" vertical-scroll-proportion="0.0">
+        <state line="121" column="44" selection-start="2978" selection-end="2978" vertical-scroll-proportion="4.1617646">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Units2/Unit2Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="313" selection-end="313" vertical-scroll-proportion="0.4494382">
-          <folding />
         </state>
       </provider>
     </entry>
