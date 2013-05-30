@@ -21,7 +21,12 @@ public class XzToFieldHandler {
                 if (annotation.annotationType()==XzToField.class) {
                     XzToField xzToField = (XzToField)annotation;
                     String val = xzToField.setFieldValue();
-                    fieldInObject.set(o, val);
+                    try {
+                        fieldInObject.setAccessible(true);
+                        fieldInObject.set(o, val);
+                    } catch (IllegalAccessException e) {
+                        System.out.println("nea");
+                    }
                 }
             }
         }

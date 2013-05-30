@@ -19,7 +19,7 @@ public class Main {
     String a = "dsfkljdshfkl";
 
     @XzToField(setFieldValue = "вавыавы")
-    private String b = "ok";
+    private final String b = "ok";
 
     String c = "without Annotation";
 
@@ -27,6 +27,7 @@ public class Main {
         Main main = new Main();
 
         XzToFieldHandler.handle(main);
+
         System.out.println(main.a);
         System.out.println(main.b);
         System.out.println(main.c);
